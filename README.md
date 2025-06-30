@@ -30,3 +30,5 @@ All `/notes` routes require authentication via JWT (stored in cookies).
 ---
 
 Made by **IMPANO Blessed Winner** 🚀
+LinkedIn **IMPANO Blessed Winner**
+GitHub **blessedwinner66**
