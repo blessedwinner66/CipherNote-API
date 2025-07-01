@@ -27,8 +27,37 @@ This is the backend API for a personal notes management system built with **Node
 
 All `/notes` routes require authentication via JWT (stored in cookies).
 
----
+📄 API Documentation (Swagger)
+API endpoints are documented using Swagger. You can access the interactive API docs at:
+http://localhost:3000/api-docs
+There, you can:
 
-Made by **IMPANO Blessed Winner** 🚀
-LinkedIn **IMPANO Blessed Winner**
-GitHub **blessedwinner66**
+* View all available endpoints
+
+* See request and response schemas
+
+* Test endpoints directly from the browser
+
+* Authorize requests by providing your JWT token
+
+
+🤝 Author
+IMPANO Blessed Winner
+
+LinkedIn: IMPANO Blessed Winner
+
+GitHub: blessedwinner66
+
+
+
+
+
+
+
+
+
+
+Ask ChatGPT
+
+
+
