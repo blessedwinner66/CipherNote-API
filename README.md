@@ -47,17 +47,3 @@ IMPANO Blessed Winner
 LinkedIn: IMPANO Blessed Winner
 
 GitHub: blessedwinner66
-
-
-
-
-
-
-
-
-
-
-Ask ChatGPT
-
-
-
