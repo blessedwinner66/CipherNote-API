@@ -16,7 +16,7 @@ module.exports.sign_up_post = async(req,res)=>{
        const user = await User.create({username,email,password})
        const token = await jwt.sign({id:user._id},process.env.SECRETKEY,{expiresIn:"1d"})
        res.cookie("jwt",token,{maxAge:24*60*60*1000,httpOnly:true});
-       res.status(200).json({user,token})
+       res.status(201).json({user,token})
        
     }
     catch(e){

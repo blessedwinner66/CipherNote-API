@@ -4,7 +4,7 @@ module.exports.createNote = async(req,res)=>{
      const {title,content} = req.body
      try{
        const note = await Note.create({title,content,owner:req.user._id})
-       res.status(200).json(note)
+       res.status(201).json(note)
      }
    catch(e){
       res.status(400).json({Error:e.message})
